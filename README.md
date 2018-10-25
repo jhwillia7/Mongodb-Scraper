@@ -9,13 +9,13 @@
 
 ## Screenshots
 **Home screen:** Shows all the articles.
-
+![homescreenpic]
 
 **Article Detail:** Shows information from the article with the addition of a short summary.
-
+![articledetailspic]
 
 **Comments:** Part of the Article Detail page, here is a form to post a comment.
-
+![commentscreenpic]
 
 
 ## Technologies Used
@@ -32,7 +32,8 @@
 ## JSON
 The JSON of the articles and comments can be seen by going to these links:
 
-
+-[Article JSON](https://ancient-bastion-22425.herokuapp.com/json-article)
+-[Comment JSON](https://ancient-bastion-22425.herokuapp.com/json-comment)
 
 ## The Site is live!
-
+-[Heroku Deployment](https://ancient-bastion-22425.herokuapp.com)
