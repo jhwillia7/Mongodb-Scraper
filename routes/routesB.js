@@ -1,4 +1,4 @@
-// Dependencies - this is the test file
+// Dependencies - this is the original
 var express = require("express");
 var router = express.Router();
 var path = require("path");
@@ -15,7 +15,7 @@ router.get("/", function(req, res) {
 });
 
 // SBNation
-//var url = "https://www.sbnation.com/nba-news-basketball";
+var url = "https://www.sbnation.com/nba-news-basketball";
 
 // Scrape data from one site and place it into the mongodb db
 router.get("/scrape", function(req, res) {
