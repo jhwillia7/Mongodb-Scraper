@@ -20,8 +20,8 @@ app.engine("handlebars", exphbs({
 app.set("view engine", "handlebars");
 
 //If deployed, use the deployed database, otherwise use the local mongoHeadLines database
-var MONGODB_URI = "mongodb://localhost/news-scraper";
-//process.env.MONGODB_URI ||
+var MONGODB_URI = process.env.MONGODB_URI ||"mongodb://localhost/news-scraper";
+
 
 // Setting mongoose to use built in Javascript ES6 Promises
 // Connect to Mongo DB
