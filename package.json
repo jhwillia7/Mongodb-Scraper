@@ -1,0 +1,34 @@
+{
+  "name": "mongodb-scraping",
+  "version": "1.0.0",
+  "description": "## Description *The NBA Post Up* is a basketball news website that obtains its information by scraping [SBNation] (https://www.sbnation.com/nba-news-basketball) this is home work assignment for UC Irvine Coding bootcamp.",
+  "main": "controller.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "moment": "^2.22.2",
+    "mongojs": "^2.6.0",
+    "mongoose": "^5.3.5",
+    "node": "^10.12.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhwillia7/Mongodb-Scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhwillia7/Mongodb-Scraper/issues"
+  },
+  "homepage": "https://github.com/jhwillia7/Mongodb-Scraper#readme"
+}

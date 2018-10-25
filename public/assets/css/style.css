@@ -1,0 +1,200 @@
+body, html {
+    background-image: url('../images/dub-warriors.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#logobarLogo {
+    height: 90px;
+}
+
+#navbar {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: clear;
+}
+
+#navbarLeft {
+    display: inline-block;
+    float: left;
+}
+
+#navbarRight {
+    display: inline-block;
+    float: right;
+}
+
+.navbarText {
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+}
+
+.navbarSortBy {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.navbarSlogan {
+    font-style: italic;
+    color: white;
+}
+
+.navbarLinks {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+
+    transition: all 1s;
+}
+
+.navbarLinks:hover {
+    color: orangered;
+    text-decoration: none;
+}
+
+.articleWrapper {
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.articleMain {
+    background-color: rgb(0, 107, 182, 0.7);
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.articleImage {
+    height: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.articleHeadline {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.articleAuthor {
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(253,185,39);
+}
+
+.articleTime {
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+.articleLink {
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(253,185,39);
+    margin-right: 20px;
+
+    transition: all 1s;
+}
+
+.articleLink:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.articleComment {
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: red;
+
+    transition: all 1s;
+}
+
+.articleComment:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.text-wrapper {
+    overflow-wrap: break-word;
+}
+
+.articleBody {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #444;
+    margin: 80px 40px 100px 40px;
+}
+
+.noComment {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.formWrapper {
+    background-color: rgb(237, 237, 237, 0.7);
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 60px;
+    margin: 20px;
+}
+
+form {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+.commentFormHeader {
+    text-align: center;
+    font-size: 30px;
+}
+
+#submitButton {
+    background-color: orangered;
+
+    transition: all 1s;
+}
+
+#submitButton:hover {
+    background-color: orange;
+}
+
+.userName {
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.userComment {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.userCommentSection {
+    margin-top: 10px;
+}
+
+.deleteComment {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: red;
+
+    transition: all 1s;
+}
+
+.deleteComment:hover {
+    color: black;
+}
