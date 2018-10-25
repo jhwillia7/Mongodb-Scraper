@@ -31,7 +31,6 @@ This program utilizes **MongoDB**, **node**, **cheerio**, **handlebars**, **jQue
 
 ## JSON
 The JSON of the articles and comments can be seen by going to these links:
-
 -[Article JSON](https://ancient-bastion-22425.herokuapp.com/json-article)
 -[Comment JSON](https://ancient-bastion-22425.herokuapp.com/json-comment)
 
